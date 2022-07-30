@@ -113,7 +113,6 @@ You can find more model training details in experiments.
 
 # Distillation training results
 
-## QRcode training results
 
 **KD loss**
 Paper:https://arxiv.org/abs/1503.02531
