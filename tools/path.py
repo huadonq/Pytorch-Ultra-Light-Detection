@@ -1,0 +1,1 @@
+qrcode_data_path = ''
