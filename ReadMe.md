@@ -125,3 +125,13 @@ Paper:https://arxiv.org/abs/1706.00384
 
 to be continue...
 
+# Citation
+**If you find my work useful in your research, please consider citing:**
+
+```
+@inproceedings{huadonq,
+ title={Pytorch-Ultra-Light-Detection},
+ author={huadonq},
+ year={2022}
+}
+```
