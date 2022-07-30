@@ -18,7 +18,7 @@ You just need to change the original labelme data path and the save path in run.
 the "run.sh" contains:
 
 ```
-python main.py --root_dir /home/jovyan/qrcode-single-detection/0718_detection --save_path /home/jovyan/qrcode-single-detection/data
+python main.py --root_dir /home/data_source --save_path /home/data
 ```
 the "root_dir" is your original data path, and i think you know what the "save_path", it's the save path, this folder contains COCO format data struct.
 
@@ -74,7 +74,7 @@ Or you want to visual detection result by coco-format, please replace detection_
 
 ```
 @inproceedings{zjh,
- title={Light-Qrcode-Detection-Tools},
+ title={Ultra-Light-Detection-Tools},
  author={zjh},
  year={2022}
 }

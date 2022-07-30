@@ -1,5 +1,28 @@
 
 
+# Prepare datasets
+
+If you want to reproduce my pretrained models, you need download coco-format dataset and make sure the folder architecture as follows:
+```
+data
+|
+|----->train
+|----------------->images
+|---------------------------xxx.jpg
+...
+|---------------------------xxx.jpg
+|----------------->annotations
+|---------------------------train.json
+...
+|----->val
+|----------------->images
+|---------------------------xxx.jpg
+...
+|---------------------------xxx.jpg
+|----------------->annotations
+|---------------------------val.json
+
+```
 # Environments
 
 **This repository only support DDP training.**
@@ -46,29 +69,6 @@ pip install -v --no-cache-dir ./
 ```
 Using apex to train can reduce video memory usage by 25%-30%, but the training speed will be slower, the trained model has the same performance as not using apex.
 
-# Prepare datasets
-
-If you want to reproduce my pretrained models, you need download coco-format dataset and make sure the folder architecture as follows:
-```
-data
-|
-|----->train
-|----------------->images
-|---------------------------xxx.jpg
-...
-|---------------------------xxx.jpg
-|----------------->annotations
-|---------------------------train.json
-...
-|----->val
-|----------------->images
-|---------------------------xxx.jpg
-...
-|---------------------------xxx.jpg
-|----------------->annotations
-|---------------------------val.json
-
-```
 
 # Train and test model
 
@@ -103,7 +103,7 @@ Also, You can modify super parameters in test_config.py.
 
 # Detection training results
 
-## QRcode training results
+## Training results
 
 
 to be continue...
